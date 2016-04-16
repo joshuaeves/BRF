@@ -1,0 +1,28 @@
+div {
+	/*border: 1px solid gray;*/
+}
+
+body {
+	background: rgb(226, 9, 23);
+
+}
+
+#container {
+	height: 100%;
+	width: 100%;
+	
+}
+h1 {
+	text-align: center;
+}
+
+#main_content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	
+	
+
+}
