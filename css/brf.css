@@ -1,28 +1,52 @@
 div {
-	/*border: 1px solid gray;*/
+/*	border: 1px solid gray;
+*/}
+
+.one {
+	background: rgb(226, 9, 23);
+	cursor: pointer;
+
 }
 
-body {
+.two{
+	display: none;
 	background: rgb(226, 9, 23);
 
 }
 
+
 #container {
+	
+	position: absolute;
 	height: 100%;
 	width: 100%;
 	
-}
-h1 {
-	text-align: center;
+	
 }
 
-#main_content {
+#content_1{
+	
+	height: inherit;
+	width: inherit;
+	background-image: url(eyes_rotate.gif);
+	background-size: 120px;
+}
+
+#content_2{
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-
-	
 	
 
 }
+h1 {
+	
+	color: black;
+	text-align: center;
+	font-size: 3.4vw;
+	
+}
+
+
+#a_feeling {}	
